@@ -4,3 +4,13 @@
     background-color: white;
     border: 3px solid black;
 }
+
+.btn{
+
+    font-size: 20px;
+    color: white;
+    background-color: crimson;
+    height: 100px;
+    width: 300px;
+    margin-top: 25%;
+}
