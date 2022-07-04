@@ -19,11 +19,15 @@ function loadApiData(){
             `
                       <div class="site">
                       <img src="${data[i]["avatar_url"]}" alt="this is user logo" height="100" width="100">
-                      <h1><b>${data[i]["login"]}</b></h1>
+                      <p>Name :<b> ${data[i]["login"]}</b></p>
+                      <p>Type : ${data[i]["type"]}</p>
+                      <p>Site Admin : ${data[i]["site_admin"]}</p>
+                      <p>Followers url : ${data[i]["followers_url"]}</p>
+                      </br>
                       </div>
           
                `;
              items.innerHTML = output ;   
          }
       });
-}
+} 

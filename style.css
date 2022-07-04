@@ -1,8 +1,7 @@
-.items{
+#items{
     width: 50%;
-    height: 50vh;
+    height: 300px;
     background-color: white;
-    border: 3px solid black;
 }
 
 .btn{
